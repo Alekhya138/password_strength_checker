@@ -12,3 +12,17 @@ A simple Python project to check password strength based on:
 2. Run the script:
 ```bash
 python password_strength_checker.py
+
+
+## 📥 Sample Output
+
+<pre>
+Enter your password: Pass123
+Weak: No special character
+
+Enter your password: Hello123!
+Strong Password 💪
+
+Enter your password: abc
+Weak: Less than 8 characters
+</pre>
